@@ -14,7 +14,7 @@
 #added sbatch scripts to email me of beginning of execution, failure, and the end of the script.
 
 # define variables
-WORKDIR="/data/users/<username>/rnaseq_course"
+WORKDIR="/data/users/aikiror/rnaseq"
 OUTDIR="$WORKDIR/results"
 SAMPLELIST="$WORKDIR/metadata/samplelist.tsv"
 
