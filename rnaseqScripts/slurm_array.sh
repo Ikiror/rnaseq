@@ -7,6 +7,11 @@
 #SBATCH --output=array_%J.out
 #SBATCH --error=array_%J.err
 #SBATCH --partition=pibu_el8
+#SBATCH --mail-user=amo.ikiror@students.unibe.ch
+#SBATCH --mail-type=begin,end,fail
+
+
+#added sbatch scripts to email me of beginning of execution, failure, and the end of the script.
 
 # define variables
 WORKDIR="/data/users/<username>/rnaseq_course"
